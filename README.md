@@ -4,7 +4,7 @@ This project was created using React and was inspired by devchallenges.io
 
 
 
-## Library Userd
+## Library Used
 
 ### React-file-drop 
 - For the drag and drop features

@@ -4,9 +4,3 @@
   height: 100vh;
   background-color: #fafafb;
 }
-
-@media screen and (max-width: 500px) {
-  .app {
-    place-items: start;
-  }
-}

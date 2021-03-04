@@ -1,0 +1,79 @@
+.card {
+  background-color: #f6f8fb;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card > h1 {
+  font-size: 21px;
+}
+.card > p {
+  margin-top: 20px;
+}
+.card__body {
+  margin: 20px;
+  border: 2px dashed #bfd7f8;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-target {
+  background-color: #bfd7f8;
+  padding: 40px;
+}
+
+.card__body img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #f0f2f5;
+  border-radius: 10px;
+  padding: 5px;
+}
+.card__body > p {
+  margin-top: 10px;
+}
+.card input {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="file"] {
+  color: transparent;
+  /* width: 19%; */
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+input[type="file"]:hover {
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .card__body {
+    width: 100%;
+  }
+  button {
+    width: 90%;
+  }
+  .card input {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

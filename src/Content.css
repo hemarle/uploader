@@ -1,0 +1,50 @@
+.content > h1 {
+}
+.content > img {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+.content > .MuiSvgIcon-root {
+  color: chartreuse;
+  font-size: 42px;
+}
+
+.content__clipboard {
+  display: flex;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.content__clipboard > input {
+  flex: 0.7;
+  outline: none;
+  border-style: none;
+}
+.content__clipboard > button {
+  width: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .content__clipboard {
+    display: grid;
+    /* flex-direction: column; */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .content__clipboard > input {
+    flex: 1;
+    width: 100%;
+    outline: inset;
+    border-style: inset;
+    margin-bottom: 10px;
+  }
+  .content__clipboard > button {
+    width: 100%;
+  }
+  .content > img {
+    width: 150px;
+    height: auto;
+  }
+}

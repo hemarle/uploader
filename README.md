@@ -1,4 +1,4 @@
-#Responsive Drag and Drop Image Uploader
+# Responsive Drag and Drop Image Uploader
 
 This project was created using React and was inspired by devchallenges.io
 

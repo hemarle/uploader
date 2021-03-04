@@ -65,6 +65,9 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
   .card__body {
     width: 100%;
   }
